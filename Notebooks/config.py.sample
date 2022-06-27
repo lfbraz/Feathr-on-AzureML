@@ -1,0 +1,16 @@
+import os
+
+# Service Principal credentials
+os.environ['AZURE_CLIENT_ID'] = '<YOUR-CLIENT-ID>'
+os.environ['AZURE_TENANT_ID'] = '<YOUR-TENANT-ID>'
+os.environ['AZURE_CLIENT_SECRET'] = '<YOUR-CLIENT-SECRET>'
+
+# Databricks Workspace
+os.environ['DATABRICKS_WORKSPACE_TOKEN_VALUE'] = '<YOUR-DATABRICKS-TOKEN>'
+
+# ADLS credentials
+os.environ['ADLS_ACCOUNT'] = '<YOUR-STORAGE-ACCOUNT-NAME'
+os.environ['ADLS_KEY'] = '<YOUR-STOAGE-ACCOUNT-KEY>'
+
+# REDIS password
+os.environ['REDIS_PASSWORD'] = '<YOUR-REDIS-PASSWORD'

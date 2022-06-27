@@ -1,0 +1,11 @@
+channels:
+- conda-forge
+dependencies:
+- python=3.8.5
+- pip
+- pip:
+  - azureml-defaults
+  - feathr
+  - numpy
+  - scikit-learn==0.24.1
+name: churn-env
